@@ -14,7 +14,7 @@ A comprehensive Bash script for user and group management with an interactive me
   - Delete existing groups
   - Rename groups with validation
   - Existence checks before operations
-
+```bash
 ┌───────────────────────┐
 │      Main Menu        │
 ├──────────┬────────────┤
@@ -31,6 +31,7 @@ A comprehensive Bash script for user and group management with an interactive me
 │ 3) Back   │ │ 3) Rename   │
 └───────────┘ │ 4) Back     │
               └─────────────┘
+```
 ## Requirements
 
 - Linux system
