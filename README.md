@@ -50,7 +50,8 @@ A comprehensive Bash script for user and group management with an interactive me
    chmod +x admin_menu.sh
   ```
 3. Run with:
-  ```bash
-  sudo ./admin_menu.sh
-  ```
+```bash
+sudo ./admin_menu.sh
+```
+
 ## Usage
