@@ -1,7 +1,7 @@
 # Admin Menu System
 
 A comprehensive Bash script for user and group management with an interactive menu interface.
-
+---
 ## Features
 
 - **User Management**:
@@ -32,13 +32,14 @@ A comprehensive Bash script for user and group management with an interactive me
 └───────────┘ │ 4) Back     │
               └─────────────┘
 ```
+---
 ## Requirements
 
 - Linux system
 - Bash shell
 - Sudo/root privileges (for user/group modifications)
 - Standard GNU utilities (id, useradd, userdel, groupadd, etc.)
-
+---
 ## Installation
 1. Download the script:
    ```bash
@@ -52,6 +53,14 @@ A comprehensive Bash script for user and group management with an interactive me
 ```bash
 sudo ./admin_menu.sh
 ```
-
-
+---
 ## Usage
+Main Menu
+```bash
+Hello To Admin Menu
+1) User
+2) Group
+3) Exit
+select your option:
+```
+--
