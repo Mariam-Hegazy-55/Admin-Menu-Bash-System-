@@ -55,7 +55,7 @@ sudo ./admin_menu.sh
 ```
 ---
 ## Usage
-Main Menu
+**Main Menu**
 ```bash
 Hello To Admin Menu
 1) User
@@ -63,4 +63,30 @@ Hello To Admin Menu
 3) Exit
 select your option:
 ```
---
+**User Submenu**
+```bash
+Hello To User Menu
+1) Add
+2) Delete
+3) Back
+select your option:
+```
+**Group Submenu**
+```bash
+Hello To Group Menu
+1) Add
+2) Delete
+3) Rename
+4) Back
+select your option:
+```
+---
+## Functions
+
+| Function       | Description                          | Parameters |
+|----------------|--------------------------------------|------------|
+| `add_user`     | Creates new user with home directory | None       |
+| `delete_user`  | Removes user and home directory      | None       |
+| `add_group`    | Creates new system group             | None       |
+| `delete_group` | Removes existing group               | None       |
+| `rename_group` | Renames an existing group            | None       |
