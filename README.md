@@ -40,18 +40,18 @@ A comprehensive Bash script for user and group management with an interactive me
 - Standard GNU utilities (id, useradd, userdel, groupadd, etc.)
 
 ## Installation
-
 1. Download the script:
    ```bash
    wget https://example.com/path/to/admin_menu.sh
    ```
 2. Make it executable:
-   ```bash
+```bash
    chmod +x admin_menu.sh
   ```
 3. Run with:
 ```bash
 sudo ./admin_menu.sh
 ```
+
 
 ## Usage
